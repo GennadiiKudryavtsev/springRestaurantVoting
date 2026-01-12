@@ -1,26 +1,26 @@
-package ru.sandybaeva.restaurant.web.dish;
+package com.kudryavtsevgennady.springRestaurantVoting.spring.web.dish;
 
+import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Dish;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.service.DishService;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.web.AbstractControllerTest;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.web.json.JsonUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import ru.sandybaeva.restaurant.model.Dish;
-import ru.sandybaeva.restaurant.service.DishService;
-import ru.sandybaeva.restaurant.web.AbstractControllerTest;
-import ru.sandybaeva.restaurant.web.json.JsonUtil;
 
 import java.util.Arrays;
 
-import static ru.sandybaeva.restaurant.DishTestData.*;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.DishTestData.*;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.RestaurantTestData.RESTAURANT_ID_1;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.TestUtil.readFromJson;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.TestUtil.userHttpBasic;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.UserTestData.ADMIN;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.UserTestData.USER_1;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static ru.sandybaeva.restaurant.RestaurantTestData.RESTAURANT_ID_1;
-import static ru.sandybaeva.restaurant.TestUtil.readFromJson;
-import static ru.sandybaeva.restaurant.UserTestData.ADMIN;
-import static ru.sandybaeva.restaurant.TestUtil.userHttpBasic;
-import static ru.sandybaeva.restaurant.UserTestData.USER_1;
 
 class AdminDishControllerTest extends AbstractControllerTest {
 

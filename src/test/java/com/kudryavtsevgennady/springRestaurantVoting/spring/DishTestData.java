@@ -1,11 +1,11 @@
-package ru.sandybaeva.restaurant;
+package com.kudryavtsevgennady.springRestaurantVoting.spring;
 
-import ru.sandybaeva.restaurant.model.Dish;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Dish;
 
 import java.time.LocalDate;
 
-import static ru.sandybaeva.restaurant.model.AbstractBaseEntity.START_SEQ;
-import static ru.sandybaeva.restaurant.RestaurantTestData.RESTAURANT_1;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.RestaurantTestData.RESTAURANT_1;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.model.AbstractBaseEntity.START_SEQ;
 
 public class DishTestData {
 

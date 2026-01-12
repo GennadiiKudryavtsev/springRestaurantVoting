@@ -1,21 +1,21 @@
-package ru.sandybaeva.restaurant.web.user;
+package com.kudryavtsevgennady.springRestaurantVoting.spring.web.user;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import ru.sandybaeva.restaurant.model.User;
-import ru.sandybaeva.restaurant.service.UserService;
-import ru.sandybaeva.restaurant.to.UserTo;
-import ru.sandybaeva.restaurant.util.UserUtil;
-import ru.sandybaeva.restaurant.web.AbstractControllerTest;
-import ru.sandybaeva.restaurant.web.json.JsonUtil;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.model.User;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.service.UserService;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.to.UserTo;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.util.UserUtil;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.web.AbstractControllerTest;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.web.json.JsonUtil;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static ru.sandybaeva.restaurant.TestUtil.readFromJson;
-import static ru.sandybaeva.restaurant.UserTestData.*;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.TestUtil.readFromJson;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.UserTestData.*;
 
 class UserControllerTest extends AbstractControllerTest {
 

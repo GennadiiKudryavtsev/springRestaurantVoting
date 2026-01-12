@@ -3,8 +3,8 @@ package com.kudryavtsevgennady.springRestaurantVoting.spring.util;
 import com.kudryavtsevgennady.springRestaurantVoting.spring.HasId;
 import com.kudryavtsevgennady.springRestaurantVoting.spring.util.exception.ErrorType;
 import com.kudryavtsevgennady.springRestaurantVoting.spring.util.exception.IllegalRequestDataException;
-import javassist.NotFoundException;
 import javax.servlet.http.HttpServletRequest;
+import javassist.NotFoundException;
 import org.slf4j.Logger;
 
 public class ValidationUtil {

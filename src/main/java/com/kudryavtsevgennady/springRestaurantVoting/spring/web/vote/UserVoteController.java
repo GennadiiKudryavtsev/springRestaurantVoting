@@ -1,5 +1,8 @@
 package com.kudryavtsevgennady.springRestaurantVoting.spring.web.vote;
 
+import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Vote;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.service.VoteService;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.web.SecurityUtil;
 import javassist.NotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,9 +12,6 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Vote;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.service.VoteService;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.web.SecurityUtil;
 
 import java.net.URI;
 import java.time.LocalDate;

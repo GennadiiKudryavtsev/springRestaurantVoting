@@ -1,15 +1,14 @@
-package ru.sandybaeva.restaurant.web.vote;
+package com.kudryavtsevgennady.springRestaurantVoting.spring.web.vote;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import ru.sandybaeva.restaurant.model.Vote;
-import ru.sandybaeva.restaurant.service.VoteService;
-import ru.sandybaeva.restaurant.util.exception.IllegalRequestDataException;
-import ru.sandybaeva.restaurant.web.AbstractControllerTest;
-import ru.sandybaeva.restaurant.web.json.JsonUtil;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Vote;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.service.VoteService;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.web.AbstractControllerTest;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.web.json.JsonUtil;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -17,12 +16,12 @@ import java.util.Arrays;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static ru.sandybaeva.restaurant.UserTestData.*;
-import static ru.sandybaeva.restaurant.VoteTestData.*;
-import static ru.sandybaeva.restaurant.RestaurantTestData.RESTAURANT_ID_3;
-import static ru.sandybaeva.restaurant.RestaurantTestData.RESTAURANT_ID_2;
-import static ru.sandybaeva.restaurant.TestUtil.readFromJson;
-import static ru.sandybaeva.restaurant.TestUtil.userHttpBasic;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.RestaurantTestData.RESTAURANT_ID_2;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.RestaurantTestData.RESTAURANT_ID_3;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.TestUtil.readFromJson;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.TestUtil.userHttpBasic;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.UserTestData.*;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.VoteTestData.*;
 
 class UserVoteControllerTest extends AbstractControllerTest {
 

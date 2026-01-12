@@ -1,11 +1,11 @@
-package ru.sandybaeva.restaurant;
+package com.kudryavtsevgennady.springRestaurantVoting.spring;
 
 import org.springframework.test.web.servlet.ResultMatcher;
 
 import java.util.List;
 
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.TestUtil.readListFromJsonMvcResult;
 import static org.assertj.core.api.Assertions.assertThat;
-import static ru.sandybaeva.restaurant.TestUtil.*;
 
 public class TestMatcher<T> {
     private final Class<T> clazz;

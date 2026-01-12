@@ -1,6 +1,7 @@
 package com.kudryavtsevgennady.springRestaurantVoting.spring.web.dish;
 
 import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Dish;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.service.DishService;
 import javassist.NotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,7 +9,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.service.DishService;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.validation.Valid;

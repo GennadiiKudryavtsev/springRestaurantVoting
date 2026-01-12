@@ -1,14 +1,13 @@
 package com.kudryavtsevgennady.springRestaurantVoting.spring.web.vote;
 
+import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Vote;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.service.VoteService;
 import javassist.NotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Vote;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.service.VoteService;
-
 import java.time.LocalDate;
 import java.util.List;
 

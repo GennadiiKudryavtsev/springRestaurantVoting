@@ -1,5 +1,6 @@
 package com.kudryavtsevgennady.springRestaurantVoting.spring.web;
 
+import com.kudryavtsevgennady.springRestaurantVoting.spring.util.ValidationUtil;
 import com.kudryavtsevgennady.springRestaurantVoting.spring.util.exception.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,12 +17,11 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.util.ValidationUtil;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.util.exception.*;
 
 import javax.servlet.http.HttpServletRequest;
 
 import static com.kudryavtsevgennady.springRestaurantVoting.spring.util.exception.ErrorType.*;
+
 
 @RestControllerAdvice(annotations = RestController.class)
 @Order(Ordered.HIGHEST_PRECEDENCE + 5)

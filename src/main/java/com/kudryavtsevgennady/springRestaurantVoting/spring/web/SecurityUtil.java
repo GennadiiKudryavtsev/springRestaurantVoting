@@ -1,8 +1,8 @@
 package com.kudryavtsevgennady.springRestaurantVoting.spring.web;
 
+import com.kudryavtsevgennady.springRestaurantVoting.spring.AuthorizedUser;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.AuthorizedUser;
 
 import static java.util.Objects.requireNonNull;
 

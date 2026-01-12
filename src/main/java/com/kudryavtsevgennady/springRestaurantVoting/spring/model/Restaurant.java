@@ -5,45 +5,38 @@ import org.springframework.stereotype.Component;
 import javax.persistence.*;
 import java.util.List;
 
-@Component
-@Table(name = "restaurants")
-public class Rsstaurant {
+@Entity
+@Table(name = "restaurants", uniqueConstraints = {@UniqueConstraint(columnNames = "name", name = "restaurants_unique_name_idx")})
+public class Restaurant extends AbstractNamedEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
-
-    @Column(name = "name", nullable = false)
-    private String name;
-
-    @Column(name = "address")
-    private String address;
-
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "restaurant")
     private List<Dish> dishes;
 
-    public Rsstaurant() {
+    public Restaurant() {
     }
 
-    public Rsstaurant(int id, String name, String address) {
-        this.id = id;
-        this.name = name;
-        this.address = address;
+    public Restaurant (String name) {
+        this(null, name);
     }
 
-    public String getName() {
-        return name;
+    public Restaurant(Integer id, String name) {
+        super(id, name);
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public List<Dish> getDishes() {
+        return dishes;
     }
 
-    public String getAddress() {
-        return address;
+    public void setDishes(List<Dish> dishes) {
+        this.dishes = dishes;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    @Override
+    public String toString() {
+        return "Restaurant{" +
+                "id='" + id +
+                ", name='" + name +
+                ", dishes=" + (dishes != null ? getDishes().toString() : "null") +
+                '}';
     }
-
 }

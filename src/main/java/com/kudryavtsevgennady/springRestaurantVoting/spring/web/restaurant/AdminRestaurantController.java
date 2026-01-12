@@ -1,5 +1,7 @@
 package com.kudryavtsevgennady.springRestaurantVoting.spring.web.restaurant;
 
+import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Restaurant;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.service.RestaurantService;
 import javassist.NotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,8 +10,6 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Restaurant;
-import com.kudryavtsevgennady.springRestaurantVoting.spring.service.RestaurantService;
 
 import javax.validation.Valid;
 import java.net.URI;
@@ -17,6 +17,7 @@ import java.util.List;
 
 import static com.kudryavtsevgennady.springRestaurantVoting.spring.util.ValidationUtil.assureIdConsistent;
 import static com.kudryavtsevgennady.springRestaurantVoting.spring.util.ValidationUtil.checkNew;
+
 
 @RestController
 @RequestMapping(value = AdminRestaurantController.REST_URL, produces = MediaType.APPLICATION_JSON_VALUE)

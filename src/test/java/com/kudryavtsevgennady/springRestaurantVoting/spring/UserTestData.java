@@ -1,14 +1,14 @@
-package ru.sandybaeva.restaurant;
+package com.kudryavtsevgennady.springRestaurantVoting.spring;
 
 
-import ru.sandybaeva.restaurant.model.Role;
-import ru.sandybaeva.restaurant.model.User;
-import ru.sandybaeva.restaurant.web.json.JsonUtil;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Role;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.model.User;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.web.json.JsonUtil;
 
 import java.util.Collections;
 import java.util.Date;
 
-import static ru.sandybaeva.restaurant.model.AbstractBaseEntity.START_SEQ;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.model.AbstractBaseEntity.START_SEQ;
 
 public class UserTestData {
     public static TestMatcher<User> USER_MATCHER = TestMatcher.usingFieldsComparator(User.class, "registered", "password");

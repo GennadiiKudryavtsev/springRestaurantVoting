@@ -1,11 +1,11 @@
-package ru.sandybaeva.restaurant.web.restaurant;
+package com.kudryavtsevgennady.springRestaurantVoting.spring.web.restaurant;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import ru.sandybaeva.restaurant.service.RestaurantService;
-import ru.sandybaeva.restaurant.web.AbstractControllerTest;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.service.RestaurantService;
+import com.kudryavtsevgennady.springRestaurantVoting.spring.web.AbstractControllerTest;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -13,9 +13,9 @@ import java.util.Arrays;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static ru.sandybaeva.restaurant.TestUtil.userHttpBasic;
-import static ru.sandybaeva.restaurant.UserTestData.*;
-import static ru.sandybaeva.restaurant.RestaurantTestData.*;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.RestaurantTestData.*;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.TestUtil.userHttpBasic;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.UserTestData.*;
 
 class UserRestaurantControllerTest extends AbstractControllerTest {
 

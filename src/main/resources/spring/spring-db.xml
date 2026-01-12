@@ -21,7 +21,7 @@
     <jpa:repositories base-package="com.kudryavtsevgennady.springRestaurantVoting.spring.repository"/>
     <context:component-scan base-package="com.kudryavtsevgennady.springRestaurantVoting.spring.repository"/>
 
-    <context:property-placeholder location="classpath:db/postgresql.properties" system-properties-mode="OVERRIDE"/>
+    <context:property-placeholder location="classpath:db/hsqldb.properties" system-properties-mode="OVERRIDE"/>
 
     <bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource"
@@ -32,7 +32,7 @@
 
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
           p:dataSource-ref="dataSource"
-          p:packagesToScan="ru.sandybaeva.**.model">
+          p:packagesToScan="com.kudryavtsevgennady.springRestaurantVoting.spring.model">
 
         <property name="jpaPropertyMap">
             <map>

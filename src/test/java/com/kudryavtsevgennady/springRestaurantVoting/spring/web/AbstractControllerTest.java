@@ -1,4 +1,4 @@
-package ru.sandybaeva.restaurant.web;
+package com.kudryavtsevgennady.springRestaurantVoting.spring.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.web.SpringJUnitWebConfig;
@@ -35,7 +35,7 @@ abstract public class AbstractControllerTest {
     private WebApplicationContext webApplicationContext;
 
     @PostConstruct
-    private void postConstruct() {
+    protected void postConstruct() {
         mockMvc = MockMvcBuilders
                 .webAppContextSetup(webApplicationContext)
                 .addFilter(CHARACTER_ENCODING_FILTER)

@@ -1,14 +1,13 @@
-package ru.sandybaeva.restaurant;
+package com.kudryavtsevgennady.springRestaurantVoting.spring;
 
-import ru.sandybaeva.restaurant.model.Restaurant;
+
+import com.kudryavtsevgennady.springRestaurantVoting.spring.model.Restaurant;
 
 import java.util.Arrays;
-import java.util.List;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.DishTestData.*;
+import static com.kudryavtsevgennady.springRestaurantVoting.spring.model.AbstractBaseEntity.START_SEQ;
 
-import static ru.sandybaeva.restaurant.model.AbstractBaseEntity.START_SEQ;
-import static ru.sandybaeva.restaurant.DishTestData.*;
 
 public class RestaurantTestData {
 
