@@ -13,8 +13,7 @@ If it is after 11:00 then it is too late, vote can't be changed
 Each restaurant provides a new menu each day.
 https://github.com/JavaWebinar/topjava/blob/doc/doc/graduation.md
 
-
-
+#
 
 Используемые технологии:
 <li>Spring 5</li>
