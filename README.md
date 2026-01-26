@@ -14,6 +14,8 @@ Each restaurant provides a new menu each day.
 https://github.com/JavaWebinar/topjava/blob/doc/doc/graduation.md
 
 
+
+
 Используемые технологии:
 <li>Spring 5</li>
 <li>XML configuration</li>
