@@ -18,8 +18,8 @@
 
     <tx:annotation-driven proxy-target-class="true"
                           transaction-manager="transactionManager" />
-    <jpa:repositories base-package="com.kudryavtsevgennady.springRestaurantVoting.spring.repository"/>
-    <context:component-scan base-package="com.kudryavtsevgennady.springRestaurantVoting.spring.repository"/>
+    <jpa:repositories base-package="com.kudryavtsevgennady.springrestaurantvoting.spring.repository"/>
+    <context:component-scan base-package="com.kudryavtsevgennady.springrestaurantvoting.spring.repository"/>
 
     <context:property-placeholder location="classpath:db/hsqldb.properties" system-properties-mode="OVERRIDE"/>
 
@@ -32,7 +32,7 @@
 
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
           p:dataSource-ref="dataSource"
-          p:packagesToScan="com.kudryavtsevgennady.springRestaurantVoting.spring.model">
+          p:packagesToScan="com.kudryavtsevgennady.springrestaurantvoting.spring.model">
 
         <property name="jpaPropertyMap">
             <map>

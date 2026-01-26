@@ -4,74 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="616aae18-82a5-488e-bd6d-066dad81421e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/AuthorizedUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/HasId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/model/AbstractBaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/model/AbstractNamedEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/model/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/model/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/model/Vote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/repository/DishRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/repository/RestaurantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/repository/VoteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/service/DishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/service/RestaurantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/service/VoteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/to/BaseTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/to/UserTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/util/UserUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/util/ValidationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/util/exception/DeadlineVoteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/util/exception/DuplicateDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/util/exception/ErrorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/util/exception/ErrorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/util/exception/IllegalRequestDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/util/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/ExceptionInfoHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/SecurityUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/dish/AdminDishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/json/JacksonObjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/json/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/restaurant/AdminRestaurantController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/restaurant/UserRestaurantController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/user/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/vote/AdminVoteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/vote/UserVoteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cache/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/hsqldb.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/initDB.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/populateDB.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-app.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-cache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-db.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/DishTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/RestaurantTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/TestMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/TestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/UserTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/VoteTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/AbstractControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/dish/AdminDishControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/restaurant/AdminRestaurantControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/restaurant/UserRestaurantControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/user/UserControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/vote/AdminVoteControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kudryavtsevgennady/springRestaurantVoting/spring/web/vote/UserVoteControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kudryavtsevgennady/springRestaurantVoting/spring/User.java" beforeDir="false" />
+    <list default="true" id="616aae18-82a5-488e-bd6d-066dad81421e" name="Changes" comment="fix README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,47 +40,48 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AdminDishControllerTest.executor": "Run",
-    "JUnit.AdminDishControllerTest.get.executor": "Run",
-    "JUnit.AdminDishControllerTest.getNotFound.executor": "Run",
-    "JUnit.AdminRestaurantControllerTest.createRestaurant.executor": "Run",
-    "JUnit.AdminRestaurantControllerTest.executor": "Run",
-    "JUnit.AdminRestaurantControllerTest.getById.executor": "Run",
-    "JUnit.AdminVoteControllerTest.executor": "Run",
-    "JUnit.AppTest.executor": "Run",
-    "JUnit.UserControllerTest.executor": "Run",
-    "JUnit.UserRestaurantControllerTest.executor": "Run",
-    "JUnit.UserVoteControllerTest.executor": "Run",
-    "Maven.spring-restaurant-voting [clean].executor": "Run",
-    "Maven.spring-restaurant-voting [package].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/gennadykudryavtsev/Desktop/springRestaurantVoting/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22103861",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AdminDishControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminDishControllerTest.get.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminDishControllerTest.getNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminRestaurantControllerTest.createRestaurant.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminRestaurantControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminRestaurantControllerTest.getById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdminVoteControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRestaurantControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserVoteControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-restaurant-voting [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-restaurant-voting [package].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gennadykudryavtsev/Desktop/springRestaurantVoting&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22103861&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "hsqldb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;hsqldb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -157,12 +93,12 @@
       <module name="spring-restaurant-voting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.restaurant.*" />
+          <option name="PATTERN" value="com.kudryavtsevgennady.springrestaurantvoting.spring.web.restaurant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.restaurant" />
-      <option name="MAIN_CLASS_NAME" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.restaurant.AdminRestaurantControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kudryavtsevgennady.springrestaurantvoting.spring.web.restaurant.AdminRestaurantControllerTest" />
       <option name="METHOD_NAME" value="createRestaurant" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -173,12 +109,12 @@
       <module name="spring-restaurant-voting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.vote.*" />
+          <option name="PATTERN" value="com.kudryavtsevgennady.springrestaurantvoting.spring.web.vote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.vote" />
-      <option name="MAIN_CLASS_NAME" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.vote.AdminVoteControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kudryavtsevgennady.springrestaurantvoting.spring.web.vote.AdminVoteControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,12 +124,12 @@
       <module name="spring-restaurant-voting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kudryavtsevgennady.springRestaurantVoting.spring.*" />
+          <option name="PATTERN" value="com.kudryavtsevgennady.springrestaurantvoting.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kudryavtsevgennady.springRestaurantVoting.spring" />
-      <option name="MAIN_CLASS_NAME" value="com.kudryavtsevgennady.springRestaurantVoting.spring.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kudryavtsevgennady.springrestaurantvoting.spring.AppTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,12 +139,12 @@
       <module name="spring-restaurant-voting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.user.*" />
+          <option name="PATTERN" value="com.kudryavtsevgennady.springrestaurantvoting.spring.web.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.user" />
-      <option name="MAIN_CLASS_NAME" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.user.UserControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kudryavtsevgennady.springrestaurantvoting.spring.web.user.UserControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,12 +154,12 @@
       <module name="spring-restaurant-voting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.vote.*" />
+          <option name="PATTERN" value="com.kudryavtsevgennady.springrestaurantvoting.spring.web.vote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.vote" />
-      <option name="MAIN_CLASS_NAME" value="com.kudryavtsevgennady.springRestaurantVoting.spring.web.vote.UserVoteControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kudryavtsevgennady.springrestaurantvoting.spring.web.vote.UserVoteControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,8 +178,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
       </set>
     </attachedChunks>
   </component>
@@ -255,11 +191,66 @@
       <option name="presentableId" value="Default" />
       <updated>1768194185983</updated>
       <workItem from="1768194187374" duration="3124000" />
-      <workItem from="1768197333194" duration="10466000" />
+      <workItem from="1768197333194" duration="12447000" />
+      <workItem from="1768216594351" duration="1067000" />
+      <workItem from="1769409594631" duration="1496000" />
     </task>
+    <task id="LOCAL-00001" summary="fix README.md">
+      <option name="closed" value="true" />
+      <created>1769409875748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769409875748</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix README.md">
+      <option name="closed" value="true" />
+      <created>1769409912247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769409912247</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix README.md">
+      <option name="closed" value="true" />
+      <created>1769409945382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769409945382</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix README.md">
+      <option name="closed" value="true" />
+      <created>1769409992968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1769409992968</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix README.md">
+      <option name="closed" value="true" />
+      <created>1769410145042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769410145042</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix README.md">
+      <option name="closed" value="true" />
+      <created>1769410252075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769410252075</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix README.md" />
   </component>
 </project>
